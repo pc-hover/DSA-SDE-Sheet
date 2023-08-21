@@ -4,6 +4,9 @@ using namespace std;
 class Solution
 {
 public:
+//Implementation of Moore's Voting Algorithm
+// TC->O(N)
+// SC->O(1)
     int majorityElement(vector<int> &nums)
     {
         int count = 0;
